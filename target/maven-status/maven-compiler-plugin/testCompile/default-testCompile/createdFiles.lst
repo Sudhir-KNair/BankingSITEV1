@@ -1,0 +1,10 @@
+com\Banking\testcases\TC_Login.class
+com\Banking\testcases\TC_Windowhandler.class
+com\Banking\pageobjects\JSexecutors_Login.class
+com\Banking\testcases\Baseclass.class
+com\Banking\pageobjects\Pageobjects_Loginpage.class
+com\Banking\testcases\TC_Iframe.class
+com\Banking\utlities\Readconfig.class
+com\Banking\utlities\Reporting.class
+com\Banking\pageobjects\Windowhandler_page.class
+com\Banking\pageobjects\Iframe_Page.class

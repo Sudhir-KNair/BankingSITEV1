@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[entered text mainframe]]>
+    </line>
+    <line>
+      <![CDATA[switched into frame3]]>
+    </line>
+    <line>
+      <![CDATA[entered text inside frame3]]>
+    </line>
+    <line>
+      <![CDATA[selected desired course]]>
+    </line>
+    <line>
+      <![CDATA[switched back to frame3]]>
+    </line>
+    <line>
+      <![CDATA[succesfully completed]]>
+    </line>
+    <line>
+      <![CDATA[failed loggedin]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-10-09T14:09:41Z" name="BankingSITEV1" finished-at="2020-10-09T14:10:35Z" duration-ms="53755">
+    <groups>
+    </groups>
+    <test started-at="2020-10-09T14:09:41Z" name="Chrome BROWSER LOGINs" finished-at="2020-10-09T14:10:35Z" duration-ms="53755">
+      <class name="com.Banking.testcases.TC_Iframe">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Banking.testcases.TC_Iframe@7f284218]" started-at="2020-10-09T10:09:47Z" name="setup" finished-at="2020-10-09T10:09:58Z" duration-ms="10686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Entertexbox()[pri:0, instance:com.Banking.testcases.TC_Iframe@7f284218]" started-at="2020-10-09T10:09:58Z" name="Entertexbox" finished-at="2020-10-09T10:10:13Z" duration-ms="15119" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[entered text mainframe]]>
+            </line>
+            <line>
+              <![CDATA[switched into frame3]]>
+            </line>
+            <line>
+              <![CDATA[entered text inside frame3]]>
+            </line>
+            <line>
+              <![CDATA[selected desired course]]>
+            </line>
+            <line>
+              <![CDATA[switched back to frame3]]>
+            </line>
+            <line>
+              <![CDATA[succesfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Entertexbox -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Banking.testcases.TC_Iframe@7f284218]" started-at="2020-10-09T10:10:13Z" name="closebrowser" finished-at="2020-10-09T10:10:16Z" duration-ms="3356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Banking.testcases.TC_Iframe -->
+      <class name="com.Banking.testcases.TC_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Banking.testcases.TC_Login@5f77d0f9]" started-at="2020-10-09T10:10:16Z" name="setup" finished-at="2020-10-09T10:10:23Z" duration-ms="6308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="applogin()[pri:0, instance:com.Banking.testcases.TC_Login@5f77d0f9]" started-at="2020-10-09T10:10:23Z" name="applogin" finished-at="2020-10-09T10:10:32Z" duration-ms="9020" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[failed loggedin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- applogin -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Banking.testcases.TC_Login@5f77d0f9]" started-at="2020-10-09T10:10:32Z" name="closebrowser" finished-at="2020-10-09T10:10:35Z" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Banking.testcases.TC_Login -->
+    </test> <!-- Chrome BROWSER LOGINs -->
+  </suite> <!-- BankingSITEV1 -->
+</testng-results>
