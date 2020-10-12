@@ -23,12 +23,12 @@
       <![CDATA[failed loggedin]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-10-09T14:09:41Z" name="BankingSITEV1" finished-at="2020-10-09T14:10:35Z" duration-ms="53755">
+  <suite started-at="2020-10-11T18:26:34Z" name="BankingSITEV1" finished-at="2020-10-11T18:27:33Z" duration-ms="58784">
     <groups>
     </groups>
-    <test started-at="2020-10-09T14:09:41Z" name="Chrome BROWSER LOGINs" finished-at="2020-10-09T14:10:35Z" duration-ms="53755">
+    <test started-at="2020-10-11T18:26:34Z" name="Chrome BROWSER LOGINs" finished-at="2020-10-11T18:27:33Z" duration-ms="58784">
       <class name="com.Banking.testcases.TC_Iframe">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Banking.testcases.TC_Iframe@7f284218]" started-at="2020-10-09T10:09:47Z" name="setup" finished-at="2020-10-09T10:09:58Z" duration-ms="10686" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Banking.testcases.TC_Iframe@7f284218]" started-at="2020-10-11T14:26:34Z" name="setup" finished-at="2020-10-11T14:27:06Z" duration-ms="31551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Entertexbox()[pri:0, instance:com.Banking.testcases.TC_Iframe@7f284218]" started-at="2020-10-09T10:09:58Z" name="Entertexbox" finished-at="2020-10-09T10:10:13Z" duration-ms="15119" status="PASS">
+        <test-method signature="Entertexbox()[pri:0, instance:com.Banking.testcases.TC_Iframe@7f284218]" started-at="2020-10-11T14:27:06Z" name="Entertexbox" finished-at="2020-10-11T14:27:21Z" duration-ms="15243" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[entered text mainframe]]>
@@ -61,13 +61,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- Entertexbox -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Banking.testcases.TC_Iframe@7f284218]" started-at="2020-10-09T10:10:13Z" name="closebrowser" finished-at="2020-10-09T10:10:16Z" duration-ms="3356" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Banking.testcases.TC_Iframe@7f284218]" started-at="2020-10-11T14:27:21Z" name="closebrowser" finished-at="2020-10-11T14:27:23Z" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- com.Banking.testcases.TC_Iframe -->
       <class name="com.Banking.testcases.TC_Login">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Banking.testcases.TC_Login@5f77d0f9]" started-at="2020-10-09T10:10:16Z" name="setup" finished-at="2020-10-09T10:10:23Z" duration-ms="6308" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Banking.testcases.TC_Login@5f77d0f9]" started-at="2020-10-11T14:27:23Z" name="setup" finished-at="2020-10-11T14:27:28Z" duration-ms="5854" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,14 +78,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="applogin()[pri:0, instance:com.Banking.testcases.TC_Login@5f77d0f9]" started-at="2020-10-09T10:10:23Z" name="applogin" finished-at="2020-10-09T10:10:32Z" duration-ms="9020" status="PASS">
+        <test-method signature="applogin()[pri:0, instance:com.Banking.testcases.TC_Login@5f77d0f9]" started-at="2020-10-11T14:27:28Z" name="applogin" finished-at="2020-10-11T14:27:33Z" duration-ms="4233" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[failed loggedin]]>
             </line>
           </reporter-output>
         </test-method> <!-- applogin -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Banking.testcases.TC_Login@5f77d0f9]" started-at="2020-10-09T10:10:32Z" name="closebrowser" finished-at="2020-10-09T10:10:35Z" duration-ms="2821" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Banking.testcases.TC_Login@5f77d0f9]" started-at="2020-10-11T14:27:33Z" name="closebrowser" finished-at="2020-10-11T14:27:33Z" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->

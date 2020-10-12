@@ -16,7 +16,7 @@ public class Windowhandler_page {
 		PageFactory.initElements(bdriver, this);
 	}
 	
-	@FindBy (xpath = ("//div[@class='w3-hide-small w3-light-grey w3-card-2']//a[@class='w3-button w3-theme w3-hover-green w3-hover-shadow'][contains(text(),'Try it Yourself »')]"))
+	@FindBy (xpath = ("//div[@class='w3-hide-small w3-light-grey w3-card-2']//a[@class='w3-button w3-theme w3-hover-green w3-hover-shadow'][contains(text(),'Try it Yourself')]"))
 	static WebElement tryitbutton; 
 	
 	@FindBy(xpath=("//button[@class='w3-button w3-bar-item w3-green w3-hover-white w3-hover-text-green']"))
